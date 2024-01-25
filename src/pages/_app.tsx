@@ -55,7 +55,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <WagmiConfig config={wagmiConfig}>
           <ConnectButton />
           <Component {...pageProps} />
-          <div className="h-[100px]" />
+          <div className="h-[96px]" />
           <BottomBar />
         </WagmiConfig>
       ) : null}
