@@ -21,10 +21,10 @@ const ConnectButton = () => {
         }}
       />
       <div className={`${styles.header} lg:w-[600px] lg:mx-auto`}>
-        <div className={styles.logo}>
-          <h1 className="text-gray-300 text-xl font-semibold">BNB MS</h1>
-        </div>
-        <div className={styles.buttons}>
+        {/* <div className={styles.logo}>
+          <h1 className="text-gray-300 text-lg font-semibold">Blockchain</h1>
+        </div> */}
+        <div className={`${styles.buttons} w-full flex flex-row justify-between`}>
           <div
             onClick={closeAll}
             className={`${styles.highlight} ${

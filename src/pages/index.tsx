@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import { useState } from "react";
 import Hero from "@/components/Hero";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
 	return (
@@ -16,12 +17,16 @@ export default function Home() {
 
       <section className="w-full flex flex-col space-y-4">
         <Hero />
+        <div className="mx-3 p-4  bg-[#212244] flex flex-row justify-between rounded-xl  items-center">
+          <p>Current Hashrate</p>
+          <p>261(PH/s) </p>
+        </div>
+        <FAQ/>
         <div className="px-2">
           <button className="bg-[#6B54EB] w-full text-white py-3 px-3 rounded-md text-[12px]">
             Invite
           </button>
         </div>
-		
       </section>
     </>
   );
