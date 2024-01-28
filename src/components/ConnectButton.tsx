@@ -13,7 +13,7 @@ const ConnectButton = () => {
     setIsConnectHighlighted(false);
   };
   return (
-    <header className={`w-full lg:w-[600px] lg:mx-auto`}>
+    <header className={`w-full lg:w-[600px] lg:mx-auto bg-[#212244]`}>
       <div
         className={styles.backdrop}
         style={{
@@ -24,7 +24,9 @@ const ConnectButton = () => {
         {/* <div className={styles.logo}>
           <h1 className="text-gray-300 text-lg font-semibold">Blockchain</h1>
         </div> */}
-        <div className={`${styles.buttons} w-full flex flex-row justify-between`}>
+        <div
+          className={`${styles.buttons} w-full flex flex-row justify-between`}
+        >
           <div
             onClick={closeAll}
             className={`${styles.highlight} ${

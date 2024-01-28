@@ -37,7 +37,7 @@ export default function FAQ() {
 
   return (
     <div className="mx-3 p-4 bg-[#212244] flex flex-col space-y-4 justify-between rounded-xl">
-      <h1 className="font-semibold text-[22px] mb-4">Help Center</h1>
+      <h1 className="font-semibold text-[20px] mb-4">Help Center</h1>
       {FAQArray.map((faq) => (
         <CustomAccordion
           key={faq.id}

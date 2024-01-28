@@ -2,7 +2,7 @@ import React from "react";
 
 const TeamPage = () => {
   return (
-    <div className="pt-[84px] p-2 flex flex-col space-y-4  rounded-xl">
+    <div className="pt-[104px] py-4 flex flex-col px-3 rounded-b-xl space-y-4">
       <div className="p-4  bg-[#212244] flex flex-col rounded-xl space-y-4">
         <div className="flex flex-row justify-between items-center">
           <p>My Earnings</p>

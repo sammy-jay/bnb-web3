@@ -4,7 +4,7 @@ const MinePage = () => {
   return (
     <section className="flex flex-col space-y-4">
       <div className="pt-[64px] px-4 py-4 bg-[#212244] flex flex-col rounded-b-xl">
-        <h1>Loading</h1>
+        {/* <h1>Loading</h1> */}
       </div>
       <div className="mx-3 px-4 py-4 bg-[#212244] flex flex-row justify-between rounded-md">
         <p>Withdraw Balance</p>
@@ -83,6 +83,11 @@ const MinePage = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="px-2">
+        <button className="bg-[#6B54EB] w-full text-white py-4 px-3 rounded-md text-[12px]">
+          <p>Invite Friends</p>
+        </button>
       </div>
     </section>
   );
